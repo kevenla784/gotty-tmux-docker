@@ -1,2 +1,2 @@
-docker build -t yogeek/mygotty .
+docker build -t yogeek/gotty-tmux-docker .
 

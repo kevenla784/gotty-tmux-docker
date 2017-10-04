@@ -3,5 +3,5 @@
 docker run --rm -it \
 	-p 8080:8080 \
 	-v $(pwd)/gotty.conf:/root/.gotty \
-	yogeek/mygotty \
+	yogeek/gotty-tmux-docker \
 	-w tmux new -A -s gotty
