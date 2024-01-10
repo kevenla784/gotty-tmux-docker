@@ -14,7 +14,6 @@ RUN echo "LC_ALL=en_US.UTF-8" >> /etc/environment && \
     echo "LANG=en_US.UTF-8" > /etc/locale.conf && \
     locale-gen en_US.UTF-8
     
-COPY --from=mwader/static-ffmpeg:4.4.1 /ffmpeg /usr/local/bin/
 
 COPY gotty.conf /root/.gotty
 
